@@ -1,0 +1,40 @@
+.wrapRewards {
+  background-color: black;
+  padding: 100px 0;
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon h1 {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+.icon img {
+  width: 250px;
+}
+.icon p {
+  text-align: center;
+  width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapRewards {
+    padding: 30px 0;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .icon {
+    margin-top: 40px;
+  }
+  .icon img {
+    width: 200px;
+  }
+}

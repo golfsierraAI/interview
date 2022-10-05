@@ -1,0 +1,30 @@
+.navBar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.linksRight a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.linksRight a:hover {
+  border-bottom: 2px solid yellow;
+}
+
+.linksRight {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 180px;
+  height: 80px;
+}

@@ -1,0 +1,39 @@
+.wrap {
+  display: flex;
+  padding: 150px 50px;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+.wrapInner {
+  width: 50%;
+}
+.color1 {
+  background: linear-gradient(93.63deg, #da88b9 1.93%, #fde078 79.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+.black {
+  color: black;
+  font-size: 40px;
+  width: 50%;
+}
+.thin {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    width: 100%;
+    margin: auto;
+  }
+  .black {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+}

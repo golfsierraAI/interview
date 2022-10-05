@@ -1,0 +1,24 @@
+.power {
+  background-color: #222627;
+  padding: 100px 10px;
+}
+.color2 {
+  background: linear-gradient(158deg, #5ad6c4, #fdef78);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.power h1 {
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+.power h3 {
+  color: #bfc9cc;
+  font-weight: 400;
+  margin-bottom: 30px;
+}

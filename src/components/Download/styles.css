@@ -1,0 +1,35 @@
+.download {
+  padding: 150px 50px;
+  background-image: linear-gradient(158deg, #5ad6c4, #bfc9cc);
+  display: flex;
+}
+.download h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+  width: 50%;
+}
+.buttonDownload {
+  padding: 20px 60px;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .download {
+    padding: 100px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .download h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+  }
+  .buttonDownload {
+    margin-left: 0px;
+    margin-right: 20px;
+    padding: 20px 40px;
+  }
+}
